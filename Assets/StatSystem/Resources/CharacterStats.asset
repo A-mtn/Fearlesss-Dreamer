@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fbbf9b2424f4f69b9c097dcc08be4a6, type: 3}
+  m_Name: CharacterStats
+  m_EditorClassIdentifier: 
+  stats:
+  - statName: Movement Speed
+    ID: 0
+    statLevel: 1
+    baseCost: 60
+    costMultiplier: 30
+    baseValue: 2
+    valueMultiplier: 0.6
+  - statName: Health Increase
+    ID: 1
+    statLevel: 0
+    baseCost: 40
+    costMultiplier: 25
+    baseValue: 500
+    valueMultiplier: 100
+  - statName: Damage Increase
+    ID: 2
+    statLevel: 0
+    baseCost: 120
+    costMultiplier: 50
+    baseValue: 20
+    valueMultiplier: 50
+  - statName: Throw Speed
+    ID: 3
+    statLevel: 0
+    baseCost: 150
+    costMultiplier: 40
+    baseValue: 50
+    valueMultiplier: 10
+  - statName: Weapon Charge Speed
+    ID: 4
+    statLevel: 0
+    baseCost: 80
+    costMultiplier: 30
+    baseValue: 2
+    valueMultiplier: -0.25
+  - statName: Ability Area Increase
+    ID: 5
+    statLevel: 0
+    baseCost: 100
+    costMultiplier: 40
+    baseValue: 3
+    valueMultiplier: 1
+  - statName: Ability Damage Increase
+    ID: 6
+    statLevel: 0
+    baseCost: 110
+    costMultiplier: 45
+    baseValue: 50
+    valueMultiplier: 100
