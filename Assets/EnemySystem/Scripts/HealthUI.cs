@@ -1,5 +1,4 @@
 ﻿using System;
-using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -24,19 +23,9 @@ namespace EnemySystem.Scripts
             m_Slider.value = m_Damageable.health;
         }
 
-        private void GiveCurrency()
-        {
-            //var currencyToGive = m_Owner.GetComponent<EnemyAI>().currencyToGive;
-            //GameManager.Instance.Money += currencyToGive;
-        }
-        
         private void OnHealthChanged()
         {
             m_Slider.value = m_Damageable.health;
-            if (m_Damageable.health <= 0)
-            {
-                GiveCurrency();
-            }
         }
 
     }
